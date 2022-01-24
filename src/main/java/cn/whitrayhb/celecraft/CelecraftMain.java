@@ -6,6 +6,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -20,8 +21,8 @@ public class CelecraftMain implements ModInitializer {
 			.build();
 	/*Items*/
 	public static final Item STRAWBERRY = new Item(new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP).maxCount(1));
-	public static final Item GOLDENBERRY = new Item(new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP).maxCount(1));
-	public static final Item MOONBERRY = new Item(new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP).maxCount(1));
+	public static final Item GOLDENBERRY = new Item(new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP).maxCount(1).rarity(Rarity.UNCOMMON));
+	public static final Item MOONBERRY = new Item(new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP).maxCount(1).rarity(Rarity.RARE));
 
 	@Override
 	public void onInitialize() {
