@@ -4,5 +4,17 @@
     "sounds": [
       "celecraft:strawberry_get_1000"
     ]
+  },
+  "goldenberry_get_1000": {
+    "subtitle": "subtitles.celecraft.goldenberry_get_1000",
+    "sounds": [
+      "celecraft:goldenberry_get_1000"
+    ]
+  },
+  "moonberry_get": {
+    "subtitle": "subtitles.celecraft.moonberry_get",
+    "sounds": [
+      "celecraft:moonberry_get"
+    ]
   }
 }
