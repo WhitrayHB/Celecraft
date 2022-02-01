@@ -1,4 +1,10 @@
 {
+  "berry_pulse": {
+    "subtitle": "subtitles.celecraft.berry_pulse,",
+    "sounds": [
+      "celecraft:berries_pulse"
+    ]
+  },
   "strawberry_get_1000": {
     "subtitle": "subtitles.celecraft.strawberry_get_1000",
     "sounds": [

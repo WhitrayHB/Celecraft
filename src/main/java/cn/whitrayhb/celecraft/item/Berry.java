@@ -4,7 +4,6 @@ import cn.whitrayhb.celecraft.CelecraftMain;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemUsage;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
@@ -46,7 +45,7 @@ public class Berry extends Item
             }
         }
         //我也不知道为什么他会是1357的计数方式，但是能跑就行√
-        if(type=="moonberry") playerEntity.playSound(CelecraftMain.MOONBERRY_GET,1.0f,1.0f);
+        if(type == "moonberry") playerEntity.playSound(CelecraftMain.MOONBERRY_GET,1.0f,1.0f);
         return new TypedActionResult<>(ActionResult.SUCCESS,playerEntity.getStackInHand(hand));
     }
     @Override
