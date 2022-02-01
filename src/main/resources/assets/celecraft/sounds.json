@@ -5,10 +5,70 @@
       "celecraft:strawberry_get_1000"
     ]
   },
+  "strawberry_get_2000": {
+    "subtitle": "subtitles.celecraft.strawberry_get_2000",
+    "sounds": [
+      "celecraft:strawberry_get_2000"
+    ]
+  },
+  "strawberry_get_3000": {
+    "subtitle": "subtitles.celecraft.strawberry_get_3000",
+    "sounds": [
+      "celecraft:strawberry_get_3000"
+    ]
+  },
+  "strawberry_get_4000": {
+    "subtitle": "subtitles.celecraft.strawberry_get_4000",
+    "sounds": [
+      "celecraft:strawberry_get_4000"
+    ]
+  },
+  "strawberry_get_5000": {
+    "subtitle": "subtitles.celecraft.strawberry_get_5000",
+    "sounds": [
+      "celecraft:strawberry_get_5000"
+    ]
+  },
+  "strawberry_get_1up": {
+    "subtitle": "subtitles.celecraft.strawberry_get_1up",
+    "sounds": [
+      "celecraft:strawberry_get_1up"
+    ]
+  },
   "goldenberry_get_1000": {
     "subtitle": "subtitles.celecraft.goldenberry_get_1000",
     "sounds": [
       "celecraft:goldenberry_get_1000"
+    ]
+  },
+  "goldenberry_get_2000": {
+    "subtitle": "subtitles.celecraft.goldenberry_get_2000",
+    "sounds": [
+      "celecraft:goldenberry_get_2000"
+    ]
+  },
+  "goldenberry_get_3000": {
+    "subtitle": "subtitles.celecraft.goldenberry_get_3000",
+    "sounds": [
+      "celecraft:goldenberry_get_3000"
+    ]
+  },
+  "goldenberry_get_4000": {
+    "subtitle": "subtitles.celecraft.goldenberry_get_4000",
+    "sounds": [
+      "celecraft:goldenberry_get_4000"
+    ]
+  },
+  "goldenberry_get_5000": {
+    "subtitle": "subtitles.celecraft.goldenberry_get_5000",
+    "sounds": [
+      "celecraft:goldenberry_get_5000"
+    ]
+  },
+  "goldenberry_get_1up": {
+    "subtitle": "subtitles.celecraft.goldenberry_get_1up",
+    "sounds": [
+      "celecraft:goldenberry_get_1up"
     ]
   },
   "moonberry_get": {
