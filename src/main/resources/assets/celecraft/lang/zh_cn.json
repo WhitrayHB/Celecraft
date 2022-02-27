@@ -15,5 +15,7 @@
   "subtitles.celecraft.goldenberry_get_4000": "玩家：得到一颗金草莓",
   "subtitles.celecraft.goldenberry_get_5000": "玩家：得到一颗金草莓",
   "subtitles.celecraft.goldenberry_get_1up": "玩家：得到一颗金草莓",
-  "subtitles.celecraft.moonberry_get": "玩家：得到一颗月莓"
+  "subtitles.celecraft.moonberry_get": "玩家：得到一颗月莓",
+  "category.celecraft.keyBind": "Celeste",
+  "key.celecraft.dash": "冲刺"
 }
