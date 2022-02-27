@@ -20,6 +20,12 @@
   "entrypoints": {
     "main": [
       "cn.whitrayhb.celecraft.CelecraftMain"
+    ],
+    "client": [
+      "cn.whitrayhb.celecraft.CelecraftClient"
+    ],
+    "server": [
+      "cn.whitrayhb.celecraft.CelecraftServer"
     ]
   },
   "mixins": [
@@ -30,7 +36,8 @@
     "fabricloader": ">=0.11.3",
     "fabric": "*",
     "minecraft": "1.18.x",
-    "java": ">=17"
+    "java": ">=17",
+    "fabric-key-binding-api-v1": "*"
   },
   "suggests": {
     "another-mod": "*"
