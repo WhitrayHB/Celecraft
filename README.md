@@ -1,4 +1,6 @@
 # Celecraft
-A fabric mod for building Celeste in Minecraft.
+A fabric mod which adds some "Celestial" contents!
 
-Won't be developed for a long time
+The inspiration comes from Celeste.
+
+Still waiting for developing.
