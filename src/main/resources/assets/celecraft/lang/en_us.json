@@ -1,0 +1,21 @@
+{
+  "itemGroup.celecraft.general": "Celecraft",
+  "item.celecraft.goldenberry": "Goldenberry",
+  "item.celecraft.moonberry": "Moonberry",
+  "item.celecraft.strawberry": "Strawberry",
+  "subtitles.celecraft.strawberry_get_1000": "Player:Get one strawberry",
+  "subtitles.celecraft.strawberry_get_2000": "Player:Get two strawberries",
+  "subtitles.celecraft.strawberry_get_3000": "Player:Get three strawberries",
+  "subtitles.celecraft.strawberry_get_4000": "Player:Get four strawberries",
+  "subtitles.celecraft.strawberry_get_5000": "Player:Get five strawberries",
+  "subtitles.celecraft.strawberry_get_1up": "Player:Get six strawberries",
+  "subtitles.celecraft.goldenberry_get_1000": "Player:Got one goldenberry",
+  "subtitles.celecraft.goldenberry_get_2000": "Player:Got one goldenberry",
+  "subtitles.celecraft.goldenberry_get_3000": "Player:Got one goldenberry",
+  "subtitles.celecraft.goldenberry_get_4000": "Player:Got one goldenberry",
+  "subtitles.celecraft.goldenberry_get_5000": "Player:Got one goldenberry",
+  "subtitles.celecraft.goldenberry_get_1up": "Player:Got one goldenberry",
+  "subtitles.celecraft.moonberry_get": "Player:Get one moonberry",
+  "category.celecraft.keyBind": "Celeste",
+  "key.celecraft.dash": "dash"
+}

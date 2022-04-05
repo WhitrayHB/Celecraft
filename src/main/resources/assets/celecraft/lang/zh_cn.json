@@ -1,5 +1,5 @@
 {
-  "itemGroup.celecraft.general": "蔚蓝mod物品",
+  "itemGroup.celecraft.general": "蔚蓝世界物品",
   "item.celecraft.goldenberry": "金草莓",
   "item.celecraft.moonberry": "月莓",
   "item.celecraft.strawberry": "草莓",
@@ -16,6 +16,6 @@
   "subtitles.celecraft.goldenberry_get_5000": "玩家：得到一颗金草莓",
   "subtitles.celecraft.goldenberry_get_1up": "玩家：得到一颗金草莓",
   "subtitles.celecraft.moonberry_get": "玩家：得到一颗月莓",
-  "category.celecraft.keyBind": "Celeste",
+  "category.celecraft.keyBind": "蔚蓝世界",
   "key.celecraft.dash": "冲刺"
 }
