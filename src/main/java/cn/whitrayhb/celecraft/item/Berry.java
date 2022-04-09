@@ -1,6 +1,6 @@
 package cn.whitrayhb.celecraft.item;
 
-import cn.whitrayhb.celecraft.CelecraftMain;
+
 import cn.whitrayhb.celecraft.CelecraftSounds;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
