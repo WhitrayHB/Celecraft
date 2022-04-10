@@ -34,6 +34,10 @@ public class CelecraftRegistry {
         celecraftRegister(new Identifier("celecraft:moon_stone"),new BlockItem(CelecraftBlocks.MOON_STONE,new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP)));
         celecraftRegister(new Identifier("celecraft:moon_cobblestone"),CelecraftBlocks.MOON_COBBLESTONE);
         celecraftRegister(new Identifier("celecraft:moon_cobblestone"),new BlockItem(CelecraftBlocks.MOON_COBBLESTONE,new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP)));
+        celecraftRegister(new Identifier("celecraft:iron_scaffold"),CelecraftBlocks.IRON_SCAFFOLD);
+        celecraftRegister(new Identifier("celecraft:iron_scaffold"),new BlockItem(CelecraftBlocks.IRON_SCAFFOLD,new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP)));
+        celecraftRegister(new Identifier("celecraft:gray_stone"),CelecraftBlocks.GRAY_STONE);
+        celecraftRegister(new Identifier("celecraft:gray_stone"),new BlockItem(CelecraftBlocks.GRAY_STONE,new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP)));
     }
     public static void celecraftRegisterSoundEventAll(){
 

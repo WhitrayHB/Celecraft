@@ -29,6 +29,7 @@ bin/
 run/
 *.md
 
-#CelesteData
+#MoreData
 
+*.psd
 CelesteData/

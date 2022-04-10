@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "celecraft:block/gray_stone"
+  }
+}
+

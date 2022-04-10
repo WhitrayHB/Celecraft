@@ -5,6 +5,8 @@
   "item.celecraft.strawberry": "Strawberry",
   "block.celecraft.moon_stone": "Moon Stone",
   "block.celecraft.moon_cobblestone": "Moon Cobblestone",
+  "block.celecraft.gray_stone": "Gray Stone",
+  "block.celecraft.iron_scaffold": "Iron Scaffold",
   "subtitles.celecraft.strawberry_get_1000": "Player:Get one strawberry",
   "subtitles.celecraft.strawberry_get_2000": "Player:Get two strawberries",
   "subtitles.celecraft.strawberry_get_3000": "Player:Get three strawberries",
@@ -19,5 +21,5 @@
   "subtitles.celecraft.goldenberry_get_1up": "Player:Got one goldenberry",
   "subtitles.celecraft.moonberry_get": "Player:Get one moonberry",
   "category.celecraft.keyBind": "Celeste",
-  "key.celecraft.dash": "dash"
+  "key.celecraft.dash": "dash",
 }
