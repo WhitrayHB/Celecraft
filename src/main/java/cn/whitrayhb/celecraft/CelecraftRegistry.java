@@ -28,6 +28,7 @@ public class CelecraftRegistry {
         celecraftRegister(new Identifier("celecraft:strawberry"),CelecraftItems.STRAWBERRY);
         celecraftRegister(new Identifier("celecraft:goldenberry"),CelecraftItems.GOLDENBERRY);
         celecraftRegister(new Identifier("celecraft:moonberry"),CelecraftItems.MOONBERRY);
+        celecraftRegister(new Identifier("celecraft:celefragment"),CelecraftItems.CELEFRAGMENT);
     }
     public static void celecraftRegisterBlockAll(){
         celecraftRegister(new Identifier("celecraft:moon_stone"),CelecraftBlocks.MOON_STONE);
@@ -38,6 +39,10 @@ public class CelecraftRegistry {
         celecraftRegister(new Identifier("celecraft:iron_scaffold"),new BlockItem(CelecraftBlocks.IRON_SCAFFOLD,new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP)));
         celecraftRegister(new Identifier("celecraft:gray_stone"),CelecraftBlocks.GRAY_STONE);
         celecraftRegister(new Identifier("celecraft:gray_stone"),new BlockItem(CelecraftBlocks.GRAY_STONE,new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP)));
+        celecraftRegister(new Identifier("celecraft:celefragment_ore"),CelecraftBlocks.CELEFRAGMENT_ORE);
+        celecraftRegister(new Identifier("celecraft:celefragment_ore"),new BlockItem(CelecraftBlocks.CELEFRAGMENT_ORE,new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP)));
+        celecraftRegister(new Identifier("celecraft:deepslate_celefragment_ore"),CelecraftBlocks.DEEPSLATE_CELEFRAGMENT_ORE);
+        celecraftRegister(new Identifier("celecraft:deepslate_celefragment_ore"),new BlockItem(CelecraftBlocks.DEEPSLATE_CELEFRAGMENT_ORE,new Item.Settings().group(CelecraftMain.CELECRAFT_ITEM_GROUP)));
     }
     public static void celecraftRegisterSoundEventAll(){
 

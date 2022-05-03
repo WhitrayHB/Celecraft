@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "celecraft:moon_cobblestone"
+          "name": "celecraft:celefragment"
         }
       ],
       "conditions": [

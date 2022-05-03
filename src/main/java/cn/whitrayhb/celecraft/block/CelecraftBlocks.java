@@ -9,6 +9,9 @@ public class CelecraftBlocks {
     public static final Block MOON_STONE = new Block(FabricBlockSettings.of(Material.STONE).hardness(1.5f));
     public static final Block MOON_COBBLESTONE = new Block(FabricBlockSettings.of(Material.STONE).hardness(1.5f));
     public static final Block GRAY_STONE = new Block(FabricBlockSettings.of(Material.STONE).hardness(1.5f));
-    /*METAL*/
-    public static final Block IRON_SCAFFOLD =new Block(FabricBlockSettings.of(Material.METAL).hardness(3.0f));
+    /*IDK*/
+    public static final Block IRON_SCAFFOLD =new Block(FabricBlockSettings.of(Material.METAL).hardness(2.0f));
+    /*Ores*/
+    public static final Block DEEPSLATE_CELEFRAGMENT_ORE = new Block(FabricBlockSettings.of(Material.STONE).hardness(3.5f));
+    public static final Block CELEFRAGMENT_ORE = new Block(FabricBlockSettings.of(Material.STONE).hardness(2.0f));
 }
