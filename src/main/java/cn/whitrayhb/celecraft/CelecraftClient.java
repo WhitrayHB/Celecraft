@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
+import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
 
 public class CelecraftClient implements ClientModInitializer {
@@ -23,8 +24,13 @@ public class CelecraftClient implements ClientModInitializer {
     }
 
     public void tick(MinecraftClient client){
-        if(dashKey.wasPressed()&&client.player!=null){
-            Dash.dash(client);
+        if(client.player!=null) {
+            if(Dash.countCoolDown != 0) Dash.countCoolDown--;
+            if(client.player.isOnGround()&& Dash.countCoolDown == 0) Dash.count = 1;
+            client.player.sendMessage(Text.of("Count:"+Dash.count+" CountCoolDown:"+Dash.countCoolDown),true);
+            if(dashKey.wasPressed()){
+                Dash.dash(client);
+            }
         }
     }
 }
