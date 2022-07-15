@@ -17,7 +17,7 @@ public class CelecraftMain implements ModInitializer {
 			.icon(()->new ItemStack(CelecraftItems.STRAWBERRY))
 			.build();
 
-	/*SoundEvents*/
+
 	@Override
 	public void onInitialize(){
 		CELECRAFT.info("Welcome to Celecraft World!");
