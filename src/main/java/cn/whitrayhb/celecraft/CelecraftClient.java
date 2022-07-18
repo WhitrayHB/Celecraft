@@ -13,12 +13,19 @@ public class CelecraftClient implements ClientModInitializer {
 
 
     private static KeyBinding dashKey;
+    private static KeyBinding flyKey;
+
     @Override
     public void onInitializeClient() {
         dashKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.celecraft.dash",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_R,
+                "Celecraft"));
+        flyKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+                "key.celecraft.fly",
+                InputUtil.Type.KEYSYM,
+                GLFW.GLFW_KEY_Y,
                 "Celecraft"));
         ClientTickEvents.END_CLIENT_TICK.register(this::tick);
     }
@@ -27,9 +34,15 @@ public class CelecraftClient implements ClientModInitializer {
         if(client.player!=null) {
             if(Dash.countCoolDown != 0) Dash.countCoolDown--;
             if(client.player.isOnGround()&& Dash.countCoolDown == 0) Dash.count = 1;
-            client.player.sendMessage(Text.of("Count:"+Dash.count+" CountCoolDown:"+Dash.countCoolDown),true);
+            //client.player.sendMessage(Text.of("Count:"+Dash.count+" CountCoolDown:"+Dash.countCoolDown),true);
             if(dashKey.wasPressed()){
                 Dash.dash(client);
+            }
+            if(flyKey.wasPressed()){
+                Dash.fly(true,client);
+            }
+            if(!flyKey.wasPressed()){
+                Dash.fly(false,client);
             }
         }
     }
